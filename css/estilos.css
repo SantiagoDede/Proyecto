@@ -1,5 +1,18 @@
-footer {
-    position:fixed;
+.footer {
+    position:absolut;
     bottom: 0;
     width:100%;
+    background-color: rgb(223, 222, 217);
+}
+
+.fondo {
+    background-color:#D9D491;
+}
+
+.nav {
+    background-color: rgb(223, 222, 217);
+}
+
+.section {
+    background-color:#F2AE30;
 }

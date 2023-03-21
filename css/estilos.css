@@ -2,17 +2,19 @@
     position:absolut;
     bottom: 0;
     width:100%;
-    background-color: rgb(223, 222, 217);
+    background-color: #F2D0A7;
 }
 
 .fondo {
-    background-color:#D9D491;
+    background-color: #F2F7CE;
 }
 
 .nav {
-    background-color: rgb(223, 222, 217);
+    background-color:#F2D0A7;
+    position: sticky;
+    top: 0;
 }
 
 .section {
-    background-color:#F2AE30;
+    background-color:#D9A441;
 }

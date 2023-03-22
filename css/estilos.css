@@ -13,8 +13,11 @@
     background-color:#F2D0A7;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .section {
     background-color:#D9A441;
 }
+
+

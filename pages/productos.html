@@ -8,51 +8,187 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">JOYERIA HECHA A MANO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-              <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-              <a class="nav-link" href="./cuidados.html">CUIDADO DE TUS PIEZAS</a>
-              <a class="nav-link" href="./contacto.html">CONTACTO</a>
+<body class="fondo">
+
+  <nav class="navbar navbar-expand-lg nav p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">JOYERIA HECHA A MANO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+          <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+          <a class="nav-link" href="./pages/cuidados.html">CUIDADO DE TUS PIEZAS</a>
+          <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+
+
+   <main class="container-fluid fondo">
+
+        <div>
+          <h1 class="h1 text-center mb-0 p-3">NUESTROS PRODUCTOS</h1>
+        </div>
+
+   </main>
+
+   <section class="container section my-3 rounded-3 shadow">
+
+        <div class="row p-4">
+
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+            <h2 class="h2">ANILLOS</h2>
+            <p class="p w-50 text-center">A medida o regulables, lisos o con texturas.</p>
+          </div>
+          
+
+           <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+
+            <div id="carouselExample" class="carousel slide w-50 h-75">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/anillos.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/anillos2.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
           </div>
         </div>
-      </nav>
+
+   </section>
+
+   <section class="container section my-3 rounded-3 shadow">
+
+        <div class="row p-4">
+
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+            <h2 class="h2">COLLARES</h2>
+            <p class="p w-50 text-center">Colgantes o gargantillas, con cadena o diferentes tipos de telas o cintas, ajustables.</p>
+          </div>
+
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+
+            <div id="carouselExample2" class="carousel slide w-50 h-75">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/collares.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100 h-100" alt="...">
+                </div>
+              </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+             </div>
+          </div>   
+
+        </div> 
+          
+
+     </section>
+
+    <section class="container section my-3 rounded-3 shadow">
+
+        <div class="row p-4">
+
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+            <h2 class="h2">AROS</h2>
+            <p class="p w-50 text-center">Diferentes medidas, colgantes o fijos, texturados o lisos.</p>
+          </div>
+
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+
+            <div id="carouselExample3" class="carousel slide w-50 h-75">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/aros.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100 h-100" alt="...">
+                </div>
+              </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+             </div>
+          </div>   
+
+        </div> 
+          
+
+   </section>
 
 
+   <section class="container section my-3 rounded-3 shadow">
 
+        <div class="row p-4">
 
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+            <h2 class="h2">PULSERAS</h2>
+            <p class="p w-50">Brazaletes o esclavas, lisos, martillados o con piedras. Satinados o pulidos.</p>
+          </div>
 
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <footer class="footer">
+            <div id="carouselExample4" class="carousel slide w-50 h-75">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/Brazalete.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100 h-100" alt="...">
+                </div>
+              </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+             </div>
+          </div>   
+
+        </div> 
+          
+
+     </section>
+
+     <footer class="footer mt-5">
 
         <div class="container-fluid">
   
-          <div class="row p-5 pb-2 bg-light">
+          <div class="row p-5 pb-2">
             
             <div class="col-xs-12 col-md-6 col-lg-3">
               <p class="h3">VIU</p>   
@@ -100,7 +236,8 @@
         
         </div>
   
-      </footer>      
+      </footer>
+     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
 </body>
 </html>

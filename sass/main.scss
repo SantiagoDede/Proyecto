@@ -1,0 +1,26 @@
+/*vars*/
+$font-family: 'Poppins', sans-serif;
+$footer-bg-color: #F2D0A7;
+$fondo-bg-color: #F2F7CE;
+$nav-bg-color: #F2D0A7;
+$section-bg-color: #D9A441;
+
+body {
+    font-family: $font-family;
+    background-color: $fondo-bg-color;
+    .nav {
+        background-color: $nav-bg-color;
+        position: sticky;
+        top: 0;
+        z-index: 1;}
+    .footer {
+        position:absolut;
+        bottom:0;
+        width: 100%;
+        background-color: $footer-bg-color;}
+    .section {
+            background-color: $section-bg-color;}
+    .fondo {
+            background-color: $fondo-bg-color;}
+        }
+            

@@ -1,0 +1,23 @@
+/*vars*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F2F7CE;
+}
+body .nav {
+  background-color: #F2D0A7;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+body .footer {
+  position: absolut;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2D0A7;
+}
+body .section {
+  background-color: #D9A441;
+}
+body .fondo {
+  background-color: #F2F7CE;
+}/*# sourceMappingURL=main.css.map */

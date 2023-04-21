@@ -1,10 +1,10 @@
 /*vars*/
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #F2F7CE;
+  font-family: "Lato", sans-serif;
+  background-color: #F2F2F2;
 }
 body .nav {
-  background-color: #F2D0A7;
+  background-color: #BFCCC2;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -16,22 +16,55 @@ body .logoNav {
 body .logos {
   width: 40px;
   height: 40px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 body .logos:hover {
-  width: 50px;
-  height: 50px;
+  transform: scale(1.2, 1.2);
 }
-body .footer {
+body .main {
+  background-image: url(../img/magnolias.jpg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+body .main div h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  width: 80%;
+}
+
+.footer {
   position: absolut;
   bottom: 0;
   width: 100%;
-  background-color: #F2D0A7;
+  background-color: #BFCCC2;
 }
-body .section {
-  background-color: #D9A441;
+
+.section {
+  background-color: #90A699;
 }
-body .fondo {
-  background-color: #F2F7CE;
+
+.btn-custom {
+  font-size: 1.2rem;
+}
+
+.btn-custom:hover {
+  background-color: #4c6155;
+  color: white;
+}
+
+.fondo {
+  background-color: #F2F2F2;
+}
+
+@media (max-width: 870px) {
+  .main div h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .main div img {
+    padding: 0px;
+  }
 }/*# sourceMappingURL=main.css.map */
